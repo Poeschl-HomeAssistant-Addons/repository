@@ -1,12 +1,6 @@
 name: Lint Checks
 on:
-  pull_request:
-    branches:
-      - main
-      - dev
-  push:
-    branches:
-      - dev
+  workflow_dispatch:
 
 jobs:
 
