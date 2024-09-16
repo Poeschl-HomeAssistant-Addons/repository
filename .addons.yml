@@ -1,0 +1,6 @@
+channel: stable
+addons:
+  icantbelieveitsnotvaletudo:
+    repository: Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo
+    target: .
+    image: ghcr.io/poeschl-homeAssistant-addons/icantbelieveitsnotvaletudo-{arch}
