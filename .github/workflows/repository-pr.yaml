@@ -1,0 +1,15 @@
+name: Verify edge repository
+
+# yamllint disable-line rule:truthy
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+
+permissions: read-all
+
+jobs:
+  workflows:
+    uses: Poeschl-HomeAssistant-Addons/workflows/.github/workflows/repository-pr.yaml@main

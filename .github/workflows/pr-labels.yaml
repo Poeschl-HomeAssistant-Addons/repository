@@ -1,0 +1,14 @@
+name: PR label
+
+# yamllint disable-line rule:truthy
+on:
+  pull_request_target:
+    types:
+      - opened
+      - labeled
+      - unlabeled
+      - synchronize
+
+jobs:
+  workflows:
+    uses: Poeschl-HomeAssistant-Addons/workflows/.github/workflows/pr-labels.yaml@main

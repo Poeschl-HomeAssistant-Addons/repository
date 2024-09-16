@@ -1,0 +1,12 @@
+name: PR title
+
+# yamllint disable-line rule:truthy
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+
+jobs:
+  workflows:
+    uses: Poeschl-HomeAssistant-Addons/workflows/.github/workflows/pr-title.yaml@main

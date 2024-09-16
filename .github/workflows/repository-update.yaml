@@ -1,0 +1,14 @@
+name: Update edge repository
+
+# yamllint disable-line rule:truthy
+on:
+  repository_dispatch:
+    types: ["update"]
+
+jobs:
+  workflows:
+    uses: Poeschl-HomeAssistant-Addons/workflows/.github/workflows/repository-update.yaml@main
+    secrets:
+      updater_token: ${{ secrets.UPDATER_TOKEN }}
+    with:
+      addon: ${{ github.event.client_payload.addon }}

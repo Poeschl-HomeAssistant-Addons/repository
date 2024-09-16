@@ -1,0 +1,11 @@
+name: Sync labels
+
+# yamllint disable-line rule:truthy
+on:
+  schedule:
+    - cron: "0 0 * * SUN"
+  workflow_dispatch:
+
+jobs:
+  workflows:
+    uses: Poeschl-HomeAssistant-Addons/workflows/.github/workflows/labels.yaml@main

@@ -1,0 +1,36 @@
+rules:
+  document-end:
+    level: error
+    present: false
+  document-start:
+    level: error
+    present: false
+  empty-lines:
+    level: error
+    max: 1
+    max-start: 0
+    max-end: 1
+  hyphens:
+    level: error
+    max-spaces-after: 1
+  indentation:
+    level: error
+    spaces: 2
+    indent-sequences: true
+    check-multi-line-strings: false
+  key-duplicates:
+    level: error
+  line-length:
+    level: warning
+    max: 180
+    allow-non-breakable-words: true
+    allow-non-breakable-inline-mappings: true
+  new-line-at-end-of-file:
+    level: error
+  new-lines:
+    level: error
+    type: unix
+  trailing-spaces:
+    level: error
+  truthy:
+    level: error
