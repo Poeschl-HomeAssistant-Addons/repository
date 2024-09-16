@@ -5,9 +5,13 @@ on:
   repository_dispatch:
     types: ["update"]
 
+permissions: read-all
+
 jobs:
   workflows:
     uses: Poeschl-HomeAssistant-Addons/workflows/.github/workflows/repository-update.yaml@main
+    permissions:
+      contents: write
     secrets:
       updater_token: ${{ secrets.UPDATER_TOKEN }}
     with:

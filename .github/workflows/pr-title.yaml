@@ -10,3 +10,6 @@ on:
 jobs:
   workflows:
     uses: Poeschl-HomeAssistant-Addons/workflows/.github/workflows/pr-title.yaml@main
+    permissions:
+      contents: read
+      pull-requests: write
