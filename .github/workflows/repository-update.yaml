@@ -1,4 +1,4 @@
-name: Update edge repository
+name: Update stable repository
 
 # yamllint disable-line rule:truthy
 on:

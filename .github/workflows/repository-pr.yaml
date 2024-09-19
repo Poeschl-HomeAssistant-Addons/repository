@@ -1,4 +1,4 @@
-name: Verify edge repository
+name: Verify stable repository
 
 # yamllint disable-line rule:truthy
 on:
