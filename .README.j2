@@ -12,16 +12,16 @@
 {% for addon in addons %}
 ### 🧩 [{{ addon.name }}][addon-{{ addon.slug }}]
 
-![Latest Version][{{ addon.slug }}-version-shield]
-![Supports aarch64 Architecture][{{ addon.slug }}-aarch64-shield]
-![Supports amd64 Architecture][{{ addon.slug }}-amd64-shield]
-![Supports armhf Architecture][{{ addon.slug }}-armhf-shield]
-![Supports armv7 Architecture][{{ addon.slug }}-armv7-shield]
-![Supports i386 Architecture][{{ addon.slug }}-i386-shield]
+![Latest Version][{{ addon.slug }}-version-badge]
+![Supports aarch64 Architecture][{{ addon.slug }}-aarch64-badge]
+![Supports amd64 Architecture][{{ addon.slug }}-amd64-badge]
+![Supports armhf Architecture][{{ addon.slug }}-armhf-badge]
+![Supports armv7 Architecture][{{ addon.slug }}-armv7-badge]
+![Supports i386 Architecture][{{ addon.slug }}-i386-badge]
 
 {{ addon.description }}
 
-[📒 {{ addon.name }} add-on documentation][addon-doc-{{ addon.slug }}]
+[![{{ addon.name }} add-on documentation][addon-docs-badge]][addon-doc-{{ addon.slug }}]
 
 {% endfor %}
 
@@ -58,8 +58,8 @@ If you are here, seeking help, please look at the issues of the specific addon.
 {% endfor %}
 
 [project-stage-badge]: https://img.shields.io/badge/project%20stage-✔%20stable-green.svg
-[commit-badge]: https://img.shields.io/github/commit-activity/m/Poeschl/Hassio-Addons
-[licence-badge]: https://img.shields.io/github/license/Poeschl/Hassio-Addons
+[commit-badge]: https://img.shields.io/github/commit-activity/m/Poeschl-HomeAssistant-Addons/repository
+[licence-badge]: https://img.shields.io/github/license/Poeschl-HomeAssistant-Addons/repository
 [Stable-Repository]: https://github.com/Poeschl-HomeAssistant-Addons/repository
 
 [statistics-badge]: https://img.shields.io/badge/-usage_statistics-41BDF5.svg?style=for-the-badge
@@ -72,16 +72,18 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [addon-store-url]: https://my.home-assistant.io/redirect/supervisor_store/
 [addon-store-badge]: https://img.shields.io/badge/Open_Addon_store_on_my-Home%20Assistant-41BDF5?logo=home-assistant&style=for-the-badge
 
-{%- for addon in addons -%}
-[addon-{{ addon.slug }}]: {{ addon.repo }}/tree/{{ addon.version }}
-[addon-doc-{{ addon.slug }}]: {{ addon.repo }}/blob/{{ addon.version }}/README.md
+[addon-docs-badge]: https://img.shields.io/badge/Documentation-41BDF5?style=for-the-badge
+
+{% for addon in addons %}
+[addon-{{ addon.slug }}]: {{ addon.repo }}/tree/{{ addon.version[1:] }}
+[addon-doc-{{ addon.slug }}]: {{ addon.repo }}/blob/{{ addon.version[1:] }}/README.md
 [{{ addon.slug }}-issue]: {{ addon.repo }}/issues
-[{{ addon.slug }}-version-shield]: https://img.shields.io/badge/version-{{ addon.version }}-blue.svg
-{% for arch in ['aarch64', 'amd64', 'armhf', 'armv7', 'i386'] %}
-{%- if arch in addon.archs -%}
-[{{ addon.slug }}-{{ arch }}-shield]: https://img.shields.io/badge/{{ arch }}-yes-green.svg
-{%- else -%}
-[{{ addon.slug }}-{{ arch }}-shield]: https://img.shields.io/badge/{{ arch }}-no-red.svg
-{% endif %}
-{%- endfor -%}
-{%- endfor -%}
+[{{ addon.slug }}-version-badge]: https://img.shields.io/badge/version-{{ addon.version[1:] }}-blue.svg
+{% for arch in ['aarch64', 'amd64', 'armhf', 'armv7', 'i386'] -%}
+{% if arch in addon.archs %}
+[{{ addon.slug }}-{{ arch }}-badge]: https://img.shields.io/badge/{{ arch }}-yes-green.svg
+{% else -%}
+[{{ addon.slug }}-{{ arch }}-badge]: https://img.shields.io/badge/{{ arch }}-no-red.svg
+{%- endif -%}
+{% endfor %}
+{% endfor %}
