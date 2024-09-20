@@ -9,6 +9,19 @@
 
 ## Addons available
 
+### 🧩 [Asterisk][addon-asterisk]
+
+![Latest Version][asterisk-version-badge]
+![Supports aarch64 Architecture][asterisk-aarch64-badge]
+![Supports amd64 Architecture][asterisk-amd64-badge]
+![Supports armhf Architecture][asterisk-armhf-badge]
+![Supports armv7 Architecture][asterisk-armv7-badge]
+![Supports i386 Architecture][asterisk-i386-badge]
+
+(Deprecated) Asterisk is an open source framework for building communications applications. Asterisk turns an ordinary computer into a communications server
+
+[![Asterisk add-on documentation][addon-docs-badge]][addon-doc-asterisk]
+
 ### 🧩 [ICantBelieveItsNotValetudo][addon-icantbelieveitsnotvaletudo]
 
 ![Latest Version][icantbelieveitsnotvaletudo-version-badge]
@@ -51,6 +64,7 @@ You can also install them over the buttons in the Readmes of the addon folders.
 
 If you are here, seeking help, please look at the issues of the specific addon.
 
+- [Issues of Asterisk][asterisk-issue]
 - [Issues of ICantBelieveItsNotValetudo][icantbelieveitsnotvaletudo-issue]
 
 [project-stage-badge]: https://img.shields.io/badge/project%20stage-✔%20stable-green.svg
@@ -70,6 +84,15 @@ If you are here, seeking help, please look at the issues of the specific addon.
 
 [addon-docs-badge]: https://img.shields.io/badge/Documentation-41BDF5?style=for-the-badge
 
+[addon-asterisk]: https://github.com/Poeschl-HomeAssistant-Addons/asterisk/tree/1.1.1
+[addon-doc-asterisk]: https://github.com/Poeschl-HomeAssistant-Addons/asterisk/blob/1.1.1/README.md
+[asterisk-issue]: https://github.com/Poeschl-HomeAssistant-Addons/asterisk/issues
+[asterisk-version-badge]: https://img.shields.io/badge/version-1.1.1-blue.svg
+[asterisk-aarch64-badge]: https://img.shields.io/badge/aarch64-yes-green.svg
+[asterisk-amd64-badge]: https://img.shields.io/badge/amd64-yes-green.svg
+[asterisk-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
+[asterisk-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
+[asterisk-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-icantbelieveitsnotvaletudo]: https://github.com/Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo/tree/4.0.1
 [addon-doc-icantbelieveitsnotvaletudo]: https://github.com/Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo/blob/4.0.1/README.md
 [icantbelieveitsnotvaletudo-issue]: https://github.com/Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo/issues
