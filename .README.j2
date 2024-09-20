@@ -10,6 +10,7 @@
 ## Addons available
 
 {% for addon in addons %}
+{% if not 'deprecated' in addon.description | lower %}
 ### 🧩 [{{ addon.name }}][addon-{{ addon.slug }}]
 
 ![Latest Version][{{ addon.slug }}-version-badge]
@@ -22,16 +23,24 @@
 {{ addon.description }}
 
 [![{{ addon.name }} add-on documentation][addon-docs-badge]][addon-doc-{{ addon.slug }}]
-
+{% endif %}
 {% endfor %}
 
 ## Deprecated Addons
 
 These addons will not be updated anymore. Feel free to fork them.
 
-- Docker Container Stats - Lightweight monitoring of all the running docker containers.
-- OWASP ZAP - A security testing tool with MITM functionality.
-- mitmproxy - A simple MITM proxy to trace network requests.
+{% for addon in addons %}
+{% if 'deprecated' in addon.description | lower %}
+### 🕸 [{{ addon.name }}][addon-{{ addon.slug }}]
+
+![Latest Version][{{ addon.slug }}-version-badge]
+
+{{ addon.description }}
+
+[![{{ addon.name }} add-on documentation][addon-docs-badge]][addon-doc-{{ addon.slug }}]
+{% endif %}
+{% endfor %}
 
 ## Installation
 
@@ -79,11 +88,11 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [addon-doc-{{ addon.slug }}]: {{ addon.repo }}/blob/{{ addon.version[1:] }}/README.md
 [{{ addon.slug }}-issue]: {{ addon.repo }}/issues
 [{{ addon.slug }}-version-badge]: https://img.shields.io/badge/version-{{ addon.version[1:] }}-blue.svg
-{% for arch in ['aarch64', 'amd64', 'armhf', 'armv7', 'i386'] -%}
+{% for arch in ['aarch64', 'amd64', 'armhf', 'armv7', 'i386'] %}
 {% if arch in addon.archs %}
 [{{ addon.slug }}-{{ arch }}-badge]: https://img.shields.io/badge/{{ arch }}-yes-green.svg
-{% else -%}
+{% else %}
 [{{ addon.slug }}-{{ arch }}-badge]: https://img.shields.io/badge/{{ arch }}-no-red.svg
-{%- endif -%}
+{% endif %}
 {% endfor %}
 {% endfor %}
