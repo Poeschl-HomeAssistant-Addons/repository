@@ -9,6 +9,19 @@
 
 ## Addons available
 
+### 🧩 [ICantBelieveItsNotValetudo][addon-icantbelieveitsnotvaletudo]
+
+![Latest Version][icantbelieveitsnotvaletudo-version-shield]
+![Supports aarch64 Architecture][icantbelieveitsnotvaletudo-aarch64-shield]
+![Supports amd64 Architecture][icantbelieveitsnotvaletudo-amd64-shield]
+![Supports armhf Architecture][icantbelieveitsnotvaletudo-armhf-shield]
+![Supports armv7 Architecture][icantbelieveitsnotvaletudo-armv7-shield]
+![Supports i386 Architecture][icantbelieveitsnotvaletudo-i386-shield]
+
+This is a simple companion service for valetudo which generates the map pngs.
+
+[📒 ICantBelieveItsNotValetudo add-on documentation][addon-doc-icantbelieveitsnotvaletudo]
+
 
 ## Deprecated Addons
 
@@ -38,6 +51,7 @@ You can also install them over the buttons in the Readmes of the addon folders.
 
 If you are here, seeking for help, please look at the issues of the specific addon.
 
+- [Issues of ICantBelieveItsNotValetudo][icantbelieveitsnotvaletudo-issue]
 
 [project-stage-badge]: https://img.shields.io/badge/project%20stage-✔%20stable-green.svg
 [commit-badge]: https://img.shields.io/github/commit-activity/m/Poeschl/Hassio-Addons
@@ -52,4 +66,9 @@ If you are here, seeking for help, please look at the issues of the specific add
 [repository-badge]: https://img.shields.io/badge/Add_addon_repository_to_my-Home%20Assistant-41BDF5?logo=home-assistant&style=for-the-badge
 [repository-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A//github.com/Poeschl-HomeAssistant-Addons/repository
 [addon-store-url]: https://my.home-assistant.io/redirect/supervisor_store/
-[addon-store-badge]: https://img.shields.io/badge/Open_Addon_store_on_my-Home%20Assistant-41BDF5?logo=home-assistant&style=for-the-badge
+[addon-store-badge]: https://img.shields.io/badge/Open_Addon_store_on_my-Home%20Assistant-41BDF5?logo=home-assistant&style=for-the-badge[addon-icantbelieveitsnotvaletudo]: https://github.com/Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo/tree/v4.0.1
+[addon-doc-icantbelieveitsnotvaletudo]: https://github.com/Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo/blob/v4.0.1/README.md
+[icantbelieveitsnotvaletudo-issue]: https://github.com/Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo/issues
+[icantbelieveitsnotvaletudo-version-shield]: https://img.shields.io/badge/version-v4.0.1-blue.svg
+[icantbelieveitsnotvaletudo-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg[icantbelieveitsnotvaletudo-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg[icantbelieveitsnotvaletudo-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[icantbelieveitsnotvaletudo-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg[icantbelieveitsnotvaletudo-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
