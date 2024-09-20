@@ -4,3 +4,7 @@ addons:
     repository: Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo
     target: icantbelieveitsnotvaletudo
     image: ghcr.io/poeschl-homeAssistant-addons/icantbelieveitsnotvaletudo-{arch}
+  asterisk:
+    repository: Poeschl-HomeAssistant-Addons/asterisk
+    target: asterisk
+    image: ghcr.io/poeschl-homeAssistant-addons/asterisk-{arch}
