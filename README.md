@@ -33,6 +33,13 @@ These addons will not be updated anymore. Feel free to fork them.
 (Deprecated) Asterisk is an open source framework for building communications applications. Asterisk turns an ordinary computer into a communications server
 
 [![Asterisk add-on documentation][addon-docs-badge]][asterisk-doc]
+### 🕸 [Docker Container Stats][container-stats-files]
+
+![Latest Version][container-stats-version-badge]
+
+(Deprecated) A web interface for viewing historical and current statistics per docker container
+
+[![Docker Container Stats add-on documentation][addon-docs-badge]][container-stats-doc]
 
 ## Installation
 
@@ -55,6 +62,7 @@ You can also install them over the buttons in the Readmes of the addon folders.
 If you are here, seeking help, please look at the issues of the specific addon.
 
 - [Issues of Asterisk][asterisk-issue]
+- [Issues of Docker Container Stats][container-stats-issue]
 - [Issues of ICantBelieveItsNotValetudo][icantbelieveitsnotvaletudo-issue]
 
 [project-stage-badge]: https://img.shields.io/badge/project%20stage-✔%20stable-green.svg
@@ -83,6 +91,15 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [asterisk-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
 [asterisk-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
 [asterisk-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
+[container-stats-files]: https://github.com/Poeschl-HomeAssistant-Addons/container-stats/tree/1.5.0
+[container-stats-doc]: https://github.com/Poeschl-HomeAssistant-Addons/container-stats/blob/1.5.0/README.md
+[container-stats-issue]: https://github.com/Poeschl-HomeAssistant-Addons/container-stats/issues
+[container-stats-version-badge]: https://img.shields.io/badge/version-1.5.0-blue.svg
+[container-stats-aarch64-badge]: https://img.shields.io/badge/aarch64-yes-green.svg
+[container-stats-amd64-badge]: https://img.shields.io/badge/amd64-yes-green.svg
+[container-stats-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
+[container-stats-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
+[container-stats-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
 [icantbelieveitsnotvaletudo-files]: https://github.com/Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo/tree/4.0.1
 [icantbelieveitsnotvaletudo-doc]: https://github.com/Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo/blob/4.0.1/README.md
 [icantbelieveitsnotvaletudo-issue]: https://github.com/Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo/issues
