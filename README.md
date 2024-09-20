@@ -9,19 +9,6 @@
 
 ## Addons available
 
-### 🧩 [Asterisk][addon-asterisk]
-
-![Latest Version][asterisk-version-badge]
-![Supports aarch64 Architecture][asterisk-aarch64-badge]
-![Supports amd64 Architecture][asterisk-amd64-badge]
-![Supports armhf Architecture][asterisk-armhf-badge]
-![Supports armv7 Architecture][asterisk-armv7-badge]
-![Supports i386 Architecture][asterisk-i386-badge]
-
-(Deprecated) Asterisk is an open source framework for building communications applications. Asterisk turns an ordinary computer into a communications server
-
-[![Asterisk add-on documentation][addon-docs-badge]][addon-doc-asterisk]
-
 ### 🧩 [ICantBelieveItsNotValetudo][addon-icantbelieveitsnotvaletudo]
 
 ![Latest Version][icantbelieveitsnotvaletudo-version-badge]
@@ -35,14 +22,17 @@ This is a simple companion service for valetudo which generates the map pngs.
 
 [![ICantBelieveItsNotValetudo add-on documentation][addon-docs-badge]][addon-doc-icantbelieveitsnotvaletudo]
 
-
 ## Deprecated Addons
 
 These addons will not be updated anymore. Feel free to fork them.
 
-- Docker Container Stats - Lightweight monitoring of all the running docker containers.
-- OWASP ZAP - A security testing tool with MITM functionality.
-- mitmproxy - A simple MITM proxy to trace network requests.
+### 🕸 [Asterisk][addon-asterisk]
+
+![Latest Version][asterisk-version-badge]
+
+(Deprecated) Asterisk is an open source framework for building communications applications. Asterisk turns an ordinary computer into a communications server
+
+[![Asterisk add-on documentation][addon-docs-badge]][addon-doc-asterisk]
 
 ## Installation
 
@@ -99,5 +89,6 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [icantbelieveitsnotvaletudo-version-badge]: https://img.shields.io/badge/version-4.0.1-blue.svg
 [icantbelieveitsnotvaletudo-aarch64-badge]: https://img.shields.io/badge/aarch64-yes-green.svg
 [icantbelieveitsnotvaletudo-amd64-badge]: https://img.shields.io/badge/amd64-yes-green.svg
-[icantbelieveitsnotvaletudo-armhf-badge]: https://img.shields.io/badge/armhf-no-red.svg[icantbelieveitsnotvaletudo-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
+[icantbelieveitsnotvaletudo-armhf-badge]: https://img.shields.io/badge/armhf-no-red.svg
+[icantbelieveitsnotvaletudo-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
 [icantbelieveitsnotvaletudo-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
