@@ -9,7 +9,7 @@
 
 ## Addons available
 
-### 🧩 [ICantBelieveItsNotValetudo][addon-icantbelieveitsnotvaletudo]
+### 🧩 [ICantBelieveItsNotValetudo][icantbelieveitsnotvaletudo-files]
 
 ![Latest Version][icantbelieveitsnotvaletudo-version-badge]
 ![Supports aarch64 Architecture][icantbelieveitsnotvaletudo-aarch64-badge]
@@ -20,19 +20,19 @@
 
 This is a simple companion service for valetudo which generates the map pngs.
 
-[![ICantBelieveItsNotValetudo add-on documentation][addon-docs-badge]][addon-doc-icantbelieveitsnotvaletudo]
+[![ICantBelieveItsNotValetudo add-on documentation][addon-docs-badge]][icantbelieveitsnotvaletudo-doc]
 
 ## Deprecated Addons
 
 These addons will not be updated anymore. Feel free to fork them.
 
-### 🕸 [Asterisk][addon-asterisk]
+### 🕸 [Asterisk][asterisk-files]
 
 ![Latest Version][asterisk-version-badge]
 
 (Deprecated) Asterisk is an open source framework for building communications applications. Asterisk turns an ordinary computer into a communications server
 
-[![Asterisk add-on documentation][addon-docs-badge]][addon-doc-asterisk]
+[![Asterisk add-on documentation][addon-docs-badge]][asterisk-doc]
 
 ## Installation
 
@@ -74,8 +74,8 @@ If you are here, seeking help, please look at the issues of the specific addon.
 
 [addon-docs-badge]: https://img.shields.io/badge/Documentation-41BDF5?style=for-the-badge
 
-[addon-asterisk]: https://github.com/Poeschl-HomeAssistant-Addons/asterisk/tree/1.1.1
-[addon-doc-asterisk]: https://github.com/Poeschl-HomeAssistant-Addons/asterisk/blob/1.1.1/README.md
+[asterisk-files]: https://github.com/Poeschl-HomeAssistant-Addons/asterisk/tree/1.1.1
+[asterisk-doc]: https://github.com/Poeschl-HomeAssistant-Addons/asterisk/blob/1.1.1/README.md
 [asterisk-issue]: https://github.com/Poeschl-HomeAssistant-Addons/asterisk/issues
 [asterisk-version-badge]: https://img.shields.io/badge/version-1.1.1-blue.svg
 [asterisk-aarch64-badge]: https://img.shields.io/badge/aarch64-yes-green.svg
@@ -83,8 +83,8 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [asterisk-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
 [asterisk-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
 [asterisk-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-icantbelieveitsnotvaletudo]: https://github.com/Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo/tree/4.0.1
-[addon-doc-icantbelieveitsnotvaletudo]: https://github.com/Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo/blob/4.0.1/README.md
+[icantbelieveitsnotvaletudo-files]: https://github.com/Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo/tree/4.0.1
+[icantbelieveitsnotvaletudo-doc]: https://github.com/Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo/blob/4.0.1/README.md
 [icantbelieveitsnotvaletudo-issue]: https://github.com/Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo/issues
 [icantbelieveitsnotvaletudo-version-badge]: https://img.shields.io/badge/version-4.0.1-blue.svg
 [icantbelieveitsnotvaletudo-aarch64-badge]: https://img.shields.io/badge/aarch64-yes-green.svg
