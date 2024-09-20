@@ -27,17 +27,17 @@ This is a simple companion service for valetudo which generates the map pngs.
 
 These addons will not be updated anymore. Feel free to fork them.
 
-- Docker Container Stats - Lightwight monitoring of all the running docker containers.
-- OWASP ZAP - A security testing tool with MITM funtionality.
+- Docker Container Stats - Lightweight monitoring of all the running docker containers.
+- OWASP ZAP - A security testing tool with MITM functionality.
 - mitmproxy - A simple MITM proxy to trace network requests.
 
 ## Installation
 
-To install any of the add-ons offered in this repository, you must first add its repository URL to your Home Assistant instance. To do so, click the following button
+To install any of the add-ons offered in this repository, you must first add its repository URL to your Home Assistant instance. To do so, click the following button:
 
 [![Add repository to your Home Assistant instance.][repository-badge]][repository-url]
 
-or manually add the the following repository URL in the Home Assistant add-on store:
+or manually add the following repository URL in the Home Assistant add-on store:
 
 `https://github.com/Poeschl-HomeAssistant-Addons/repository`
 
@@ -49,7 +49,7 @@ You can also install them over the buttons in the Readmes of the addon folders.
 
 ## Support
 
-If you are here, seeking for help, please look at the issues of the specific addon.
+If you are here, seeking help, please look at the issues of the specific addon.
 
 - [Issues of ICantBelieveItsNotValetudo][icantbelieveitsnotvaletudo-issue]
 
