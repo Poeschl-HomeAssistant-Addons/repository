@@ -21,7 +21,7 @@
 
 {{ addon.description }}
 
-[📒 {{ addon.name }} add-on documentation][addon-doc-{{ addon.target }}]
+[📒 {{ addon.name }} add-on documentation][addon-doc-{{ addon.slug }}]
 
 {% endfor %}
 
@@ -29,17 +29,17 @@
 
 These addons will not be updated anymore. Feel free to fork them.
 
-- Docker Container Stats - Lightwight monitoring of all the running docker containers.
-- OWASP ZAP - A security testing tool with MITM funtionality.
+- Docker Container Stats - Lightweight monitoring of all the running docker containers.
+- OWASP ZAP - A security testing tool with MITM functionality.
 - mitmproxy - A simple MITM proxy to trace network requests.
 
 ## Installation
 
-To install any of the add-ons offered in this repository, you must first add its repository URL to your Home Assistant instance. To do so, click the following button
+To install any of the add-ons offered in this repository, you must first add its repository URL to your Home Assistant instance. To do so, click the following button:
 
 [![Add repository to your Home Assistant instance.][repository-badge]][repository-url]
 
-or manually add the the following repository URL in the Home Assistant add-on store:
+or manually add the following repository URL in the Home Assistant add-on store:
 
 `{{ repo }}`
 
@@ -51,10 +51,10 @@ You can also install them over the buttons in the Readmes of the addon folders.
 
 ## Support
 
-If you are here, seeking for help, please look at the issues of the specific addon.
+If you are here, seeking help, please look at the issues of the specific addon.
 
 {% for addon in addons %}
-- [Issues of {{ addon.name }}][{{ addon.target }}-issue]
+- [Issues of {{ addon.name }}][{{ addon.slug }}-issue]
 {% endfor %}
 
 [project-stage-badge]: https://img.shields.io/badge/project%20stage-✔%20stable-green.svg
@@ -74,7 +74,7 @@ If you are here, seeking for help, please look at the issues of the specific add
 
 {%- for addon in addons -%}
 [addon-{{ addon.slug }}]: {{ addon.repo }}/tree/{{ addon.version }}
-[addon-doc-{{ addon.slug}}]: {{ addon.repo }}/blob/{{ addon.version }}/README.md
+[addon-doc-{{ addon.slug }}]: {{ addon.repo }}/blob/{{ addon.version }}/README.md
 [{{ addon.slug }}-issue]: {{ addon.repo }}/issues
 [{{ addon.slug }}-version-shield]: https://img.shields.io/badge/version-{{ addon.version }}-blue.svg
 {% for arch in ['aarch64', 'amd64', 'armhf', 'armv7', 'i386'] %}
