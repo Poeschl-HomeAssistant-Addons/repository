@@ -11,7 +11,7 @@
 
 {% for addon in addons %}
 {% if not 'deprecated' in addon.description | lower %}
-### 🧩 [{{ addon.name }}][addon-{{ addon.slug }}]
+### 🧩 [{{ addon.name }}][{{ addon.slug }}-files]
 
 ![Latest Version][{{ addon.slug }}-version-badge]
 ![Supports aarch64 Architecture][{{ addon.slug }}-aarch64-badge]
@@ -22,7 +22,7 @@
 
 {{ addon.description }}
 
-[![{{ addon.name }} add-on documentation][addon-docs-badge]][addon-doc-{{ addon.slug }}]
+[![{{ addon.name }} add-on documentation][addon-docs-badge]][{{ addon.slug }}-doc]
 {% endif %}
 {% endfor %}
 
@@ -32,13 +32,13 @@ These addons will not be updated anymore. Feel free to fork them.
 
 {% for addon in addons %}
 {% if 'deprecated' in addon.description | lower %}
-### 🕸 [{{ addon.name }}][addon-{{ addon.slug }}]
+### 🕸 [{{ addon.name }}][{{ addon.slug }}-files]
 
 ![Latest Version][{{ addon.slug }}-version-badge]
 
 {{ addon.description }}
 
-[![{{ addon.name }} add-on documentation][addon-docs-badge]][addon-doc-{{ addon.slug }}]
+[![{{ addon.name }} add-on documentation][addon-docs-badge]][{{ addon.slug }}-doc]
 {% endif %}
 {% endfor %}
 
@@ -84,8 +84,8 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [addon-docs-badge]: https://img.shields.io/badge/Documentation-41BDF5?style=for-the-badge
 
 {% for addon in addons %}
-[addon-{{ addon.slug }}]: {{ addon.repo }}/tree/{{ addon.version[1:] }}
-[addon-doc-{{ addon.slug }}]: {{ addon.repo }}/blob/{{ addon.version[1:] }}/README.md
+[{{ addon.slug }}-files]: {{ addon.repo }}/tree/{{ addon.version[1:] }}
+[{{ addon.slug }}-doc]: {{ addon.repo }}/blob/{{ addon.version[1:] }}/README.md
 [{{ addon.slug }}-issue]: {{ addon.repo }}/issues
 [{{ addon.slug }}-version-badge]: https://img.shields.io/badge/version-{{ addon.version[1:] }}-blue.svg
 {% for arch in ['aarch64', 'amd64', 'armhf', 'armv7', 'i386'] %}
