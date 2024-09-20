@@ -8,3 +8,7 @@ addons:
     repository: Poeschl-HomeAssistant-Addons/asterisk
     target: asterisk
     image: ghcr.io/poeschl-homeAssistant-addons/asterisk-{arch}
+  container-stats:
+    repository: Poeschl-HomeAssistant-Addons/container-stats
+    target: container-stats
+    image: ghcr.io/poeschl-homeAssistant-addons/container-stats-{arch}
