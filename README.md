@@ -9,6 +9,18 @@
 
 ## Addons available
 
+### 🧩 [Home Assistant Git Exporter][git-exporter-files]
+
+![Latest Version][git-exporter-version-badge]
+![Supports aarch64 Architecture][git-exporter-aarch64-badge]
+![Supports amd64 Architecture][git-exporter-amd64-badge]
+![Supports armhf Architecture][git-exporter-armhf-badge]
+![Supports armv7 Architecture][git-exporter-armv7-badge]
+![Supports i386 Architecture][git-exporter-i386-badge]
+
+Export all of your Home Assistant configuration to a git repository of your choice
+
+[![Home Assistant Git Exporter add-on documentation][addon-docs-badge]][git-exporter-doc]
 ### 🧩 [ICantBelieveItsNotValetudo][icantbelieveitsnotvaletudo-files]
 
 ![Latest Version][icantbelieveitsnotvaletudo-version-badge]
@@ -63,6 +75,7 @@ If you are here, seeking help, please look at the issues of the specific addon.
 
 - [Issues of Asterisk][asterisk-issue]
 - [Issues of Docker Container Stats][container-stats-issue]
+- [Issues of Home Assistant Git Exporter][git-exporter-issue]
 - [Issues of ICantBelieveItsNotValetudo][icantbelieveitsnotvaletudo-issue]
 
 [project-stage-badge]: https://img.shields.io/badge/project%20stage-✔%20stable-green.svg
@@ -100,6 +113,15 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [container-stats-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
 [container-stats-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
 [container-stats-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
+[git-exporter-files]: https://github.com/Poeschl-HomeAssistant-Addons/git-exporter/tree/1.17.1
+[git-exporter-doc]: https://github.com/Poeschl-HomeAssistant-Addons/git-exporter/blob/1.17.1/README.md
+[git-exporter-issue]: https://github.com/Poeschl-HomeAssistant-Addons/git-exporter/issues
+[git-exporter-version-badge]: https://img.shields.io/badge/version-1.17.1-blue.svg
+[git-exporter-aarch64-badge]: https://img.shields.io/badge/aarch64-yes-green.svg
+[git-exporter-amd64-badge]: https://img.shields.io/badge/amd64-yes-green.svg
+[git-exporter-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
+[git-exporter-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
+[git-exporter-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
 [icantbelieveitsnotvaletudo-files]: https://github.com/Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo/tree/4.0.1
 [icantbelieveitsnotvaletudo-doc]: https://github.com/Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo/blob/4.0.1/README.md
 [icantbelieveitsnotvaletudo-issue]: https://github.com/Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo/issues
