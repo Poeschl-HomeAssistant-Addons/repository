@@ -16,3 +16,7 @@ addons:
     repository: Poeschl-HomeAssistant-Addons/git-exporter
     target: git-exporter
     image: ghcr.io/poeschl-homeassistant-addons/git-exporter-{arch}
+  marytts:
+    repository: Poeschl-HomeAssistant-Addons/MaryTTS
+    target: marytts
+    image: ghcr.io/poeschl-homeassistant-addons/marytts-{arch}
