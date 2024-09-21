@@ -33,6 +33,18 @@ Export all of your Home Assistant configuration to a git repository of your choi
 This is a simple companion service for valetudo which generates the map pngs.
 
 [![ICantBelieveItsNotValetudo add-on documentation][addon-docs-badge]][icantbelieveitsnotvaletudo-doc]
+### 🧩 [MaryTTS][marytts-files]
+
+![Latest Version][marytts-version-badge]
+![Supports aarch64 Architecture][marytts-aarch64-badge]
+![Supports amd64 Architecture][marytts-amd64-badge]
+![Supports armhf Architecture][marytts-armhf-badge]
+![Supports armv7 Architecture][marytts-armv7-badge]
+![Supports i386 Architecture][marytts-i386-badge]
+
+The Mary TTS speech engine as a Hassio-Addon.
+
+[![MaryTTS add-on documentation][addon-docs-badge]][marytts-doc]
 
 ## Deprecated Addons
 
@@ -77,6 +89,7 @@ If you are here, seeking help, please look at the issues of the specific addon.
 - [Issues of Docker Container Stats][container-stats-issue]
 - [Issues of Home Assistant Git Exporter][git-exporter-issue]
 - [Issues of ICantBelieveItsNotValetudo][icantbelieveitsnotvaletudo-issue]
+- [Issues of MaryTTS][marytts-issue]
 
 [project-stage-badge]: https://img.shields.io/badge/project%20stage-✔%20stable-green.svg
 [commit-badge]: https://img.shields.io/github/commit-activity/m/Poeschl-HomeAssistant-Addons/repository
@@ -131,3 +144,12 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [icantbelieveitsnotvaletudo-armhf-badge]: https://img.shields.io/badge/armhf-no-red.svg
 [icantbelieveitsnotvaletudo-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
 [icantbelieveitsnotvaletudo-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
+[marytts-files]: https://github.com/Poeschl-HomeAssistant-Addons/MaryTTS/tree/1.5.2
+[marytts-doc]: https://github.com/Poeschl-HomeAssistant-Addons/MaryTTS/blob/1.5.2/README.md
+[marytts-issue]: https://github.com/Poeschl-HomeAssistant-Addons/MaryTTS/issues
+[marytts-version-badge]: https://img.shields.io/badge/version-1.5.2-blue.svg
+[marytts-aarch64-badge]: https://img.shields.io/badge/aarch64-yes-green.svg
+[marytts-amd64-badge]: https://img.shields.io/badge/amd64-yes-green.svg
+[marytts-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
+[marytts-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
+[marytts-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
