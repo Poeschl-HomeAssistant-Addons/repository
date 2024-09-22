@@ -36,3 +36,7 @@ addons:
     repository: Poeschl-HomeAssistant-Addons/mopidy
     target: mopidy
     image: ghcr.io/poeschl-homeassistant-addons/mopidy-{arch}
+  mpd:
+    repository: Poeschl-HomeAssistant-Addons/mpd
+    target: mpd
+    image: ghcr.io/poeschl-homeassistant-addons/mpd-{arch}
