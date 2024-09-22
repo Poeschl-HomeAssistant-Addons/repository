@@ -40,3 +40,7 @@ addons:
     repository: Poeschl-HomeAssistant-Addons/mpd
     target: mpd
     image: ghcr.io/poeschl-homeassistant-addons/mpd-{arch}
+  picotts:
+    repository: Poeschl-HomeAssistant-Addons/picotts
+    target: picotts
+    image: ghcr.io/poeschl-homeassistant-addons/picotts-{arch}
