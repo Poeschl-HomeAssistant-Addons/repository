@@ -20,3 +20,7 @@ addons:
     repository: Poeschl-HomeAssistant-Addons/marytts
     target: marytts
     image: ghcr.io/poeschl-homeassistant-addons/marytts-{arch}
+  juice-shop:
+    repository: Poeschl-HomeAssistant-Addons/juice-shop
+    target: juice-shop
+    image: ghcr.io/poeschl-homeassistant-addons/juice-shop-{arch}
