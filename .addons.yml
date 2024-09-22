@@ -24,3 +24,7 @@ addons:
     repository: Poeschl-HomeAssistant-Addons/juice-shop
     target: juice-shop
     image: ghcr.io/poeschl-homeassistant-addons/juice-shop-{arch}
+  owasp-zap:
+    repository: Poeschl-HomeAssistant-Addons/owasp-zap
+    target: owasp-zap
+    image: ghcr.io/poeschl-homeassistant-addons/owasp-zap-{arch}
