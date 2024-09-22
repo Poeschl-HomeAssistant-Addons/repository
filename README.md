@@ -45,6 +45,18 @@ This is a simple companion service for valetudo which generates the map pngs.
 The Mary TTS speech engine as a Hassio-Addon.
 
 [![MaryTTS add-on documentation][addon-docs-badge]][marytts-doc]
+### 🧩 [OWASP Juice Shop][juice-shop-files]
+
+![Latest Version][juice-shop-version-badge]
+![Supports aarch64 Architecture][juice-shop-aarch64-badge]
+![Supports amd64 Architecture][juice-shop-amd64-badge]
+![Supports armhf Architecture][juice-shop-armhf-badge]
+![Supports armv7 Architecture][juice-shop-armv7-badge]
+![Supports i386 Architecture][juice-shop-i386-badge]
+
+The most trustworthy online shop out there.
+
+[![OWASP Juice Shop add-on documentation][addon-docs-badge]][juice-shop-doc]
 
 ## Deprecated Addons
 
@@ -90,6 +102,7 @@ If you are here, seeking help, please look at the issues of the specific addon.
 - [Issues of Home Assistant Git Exporter][git-exporter-issue]
 - [Issues of ICantBelieveItsNotValetudo][icantbelieveitsnotvaletudo-issue]
 - [Issues of MaryTTS][marytts-issue]
+- [Issues of OWASP Juice Shop][juice-shop-issue]
 
 [project-stage-badge]: https://img.shields.io/badge/project%20stage-✔%20stable-green.svg
 [commit-badge]: https://img.shields.io/github/commit-activity/m/Poeschl-HomeAssistant-Addons/repository
@@ -153,3 +166,12 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [marytts-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
 [marytts-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
 [marytts-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
+[juice-shop-files]: https://github.com/Poeschl-HomeAssistant-Addons/juice-shop/tree/1.2.1
+[juice-shop-doc]: https://github.com/Poeschl-HomeAssistant-Addons/juice-shop/blob/1.2.1/README.md
+[juice-shop-issue]: https://github.com/Poeschl-HomeAssistant-Addons/juice-shop/issues
+[juice-shop-version-badge]: https://img.shields.io/badge/version-1.2.1-blue.svg
+[juice-shop-aarch64-badge]: https://img.shields.io/badge/aarch64-no-red.svg
+[juice-shop-amd64-badge]: https://img.shields.io/badge/amd64-yes-green.svg
+[juice-shop-armhf-badge]: https://img.shields.io/badge/armhf-no-red.svg
+[juice-shop-armv7-badge]: https://img.shields.io/badge/armv7-no-red.svg
+[juice-shop-i386-badge]: https://img.shields.io/badge/i386-no-red.svg
