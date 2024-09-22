@@ -1,7 +1,7 @@
 channel: stable
 addons:
   icantbelieveitsnotvaletudo:
-    repository: Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo
+    repository: Poeschl-HomeAssistant-Addons/icantbelieveitsnotvaletudo
     target: icantbelieveitsnotvaletudo
     image: ghcr.io/poeschl-homeassistant-addons/icantbelieveitsnotvaletudo-{arch}
   asterisk:
@@ -17,6 +17,6 @@ addons:
     target: git-exporter
     image: ghcr.io/poeschl-homeassistant-addons/git-exporter-{arch}
   marytts:
-    repository: Poeschl-HomeAssistant-Addons/MaryTTS
+    repository: Poeschl-HomeAssistant-Addons/marytts
     target: marytts
     image: ghcr.io/poeschl-homeassistant-addons/marytts-{arch}
