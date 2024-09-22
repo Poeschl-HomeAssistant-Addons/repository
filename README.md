@@ -57,6 +57,18 @@ The Mary TTS speech engine as a Hassio-Addon.
 The most trustworthy online shop out there.
 
 [![OWASP Juice Shop add-on documentation][addon-docs-badge]][juice-shop-doc]
+### 🧩 [OWASP ZAP][owasp-zap-files]
+
+![Latest Version][owasp-zap-version-badge]
+![Supports aarch64 Architecture][owasp-zap-aarch64-badge]
+![Supports amd64 Architecture][owasp-zap-amd64-badge]
+![Supports armhf Architecture][owasp-zap-armhf-badge]
+![Supports armv7 Architecture][owasp-zap-armv7-badge]
+![Supports i386 Architecture][owasp-zap-i386-badge]
+
+(Depreciated) The OWASP Zed Attack Proxy (ZAP) is one of the world’s most popular free security tools and is actively maintained by a dedicated international team of volunteers.
+
+[![OWASP ZAP add-on documentation][addon-docs-badge]][owasp-zap-doc]
 
 ## Deprecated Addons
 
@@ -103,6 +115,7 @@ If you are here, seeking help, please look at the issues of the specific addon.
 - [Issues of ICantBelieveItsNotValetudo][icantbelieveitsnotvaletudo-issue]
 - [Issues of MaryTTS][marytts-issue]
 - [Issues of OWASP Juice Shop][juice-shop-issue]
+- [Issues of OWASP ZAP][owasp-zap-issue]
 
 [project-stage-badge]: https://img.shields.io/badge/project%20stage-✔%20stable-green.svg
 [commit-badge]: https://img.shields.io/github/commit-activity/m/Poeschl-HomeAssistant-Addons/repository
@@ -175,3 +188,12 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [juice-shop-armhf-badge]: https://img.shields.io/badge/armhf-no-red.svg
 [juice-shop-armv7-badge]: https://img.shields.io/badge/armv7-no-red.svg
 [juice-shop-i386-badge]: https://img.shields.io/badge/i386-no-red.svg
+[owasp-zap-files]: https://github.com/Poeschl-HomeAssistant-Addons/owasp-zap/tree/2.2.0
+[owasp-zap-doc]: https://github.com/Poeschl-HomeAssistant-Addons/owasp-zap/blob/2.2.0/README.md
+[owasp-zap-issue]: https://github.com/Poeschl-HomeAssistant-Addons/owasp-zap/issues
+[owasp-zap-version-badge]: https://img.shields.io/badge/version-2.2.0-blue.svg
+[owasp-zap-aarch64-badge]: https://img.shields.io/badge/aarch64-no-red.svg
+[owasp-zap-amd64-badge]: https://img.shields.io/badge/amd64-yes-green.svg
+[owasp-zap-armhf-badge]: https://img.shields.io/badge/armhf-no-red.svg
+[owasp-zap-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
+[owasp-zap-i386-badge]: https://img.shields.io/badge/i386-no-red.svg
