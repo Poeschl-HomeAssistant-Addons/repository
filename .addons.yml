@@ -28,3 +28,7 @@ addons:
     repository: Poeschl-HomeAssistant-Addons/owasp-zap
     target: owasp-zap
     image: ghcr.io/poeschl-homeassistant-addons/owasp-zap-{arch}
+  mitmproxy:
+    repository: Poeschl-HomeAssistant-Addons/mitmproxy
+    target: mitmproxy
+    image: ghcr.io/poeschl-homeassistant-addons/mitmproxy-{arch}
