@@ -81,6 +81,18 @@ Mopidy Music Server
 The most trustworthy online shop out there.
 
 [![OWASP Juice Shop add-on documentation][addon-docs-badge]][juice-shop-doc]
+### 🧩 [PicoTTS][picotts-files]
+
+![Latest Version][picotts-version-badge]
+![Supports aarch64 Architecture][picotts-aarch64-badge]
+![Supports amd64 Architecture][picotts-amd64-badge]
+![Supports armhf Architecture][picotts-armhf-badge]
+![Supports armv7 Architecture][picotts-armv7-badge]
+![Supports i386 Architecture][picotts-i386-badge]
+
+Text to speech voice synthesizer from SVox, included in Android AOSP.
+
+[![PicoTTS add-on documentation][addon-docs-badge]][picotts-doc]
 
 ## Deprecated Addons
 
@@ -144,6 +156,7 @@ If you are here, seeking help, please look at the issues of the specific addon.
 - [Issues of Mopidy][mopidy-issue]
 - [Issues of OWASP Juice Shop][juice-shop-issue]
 - [Issues of OWASP ZAP][owasp-zap-issue]
+- [Issues of PicoTTS][picotts-issue]
 - [Issues of mitmproxy][mitmproxy-issue]
 
 [project-stage-badge]: https://img.shields.io/badge/project%20stage-✔%20stable-green.svg
@@ -244,6 +257,15 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [owasp-zap-armhf-badge]: https://img.shields.io/badge/armhf-no-red.svg
 [owasp-zap-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
 [owasp-zap-i386-badge]: https://img.shields.io/badge/i386-no-red.svg
+[picotts-files]: https://github.com/Poeschl-HomeAssistant-Addons/picotts/tree/1.6.1
+[picotts-doc]: https://github.com/Poeschl-HomeAssistant-Addons/picotts/blob/1.6.1/README.md
+[picotts-issue]: https://github.com/Poeschl-HomeAssistant-Addons/picotts/issues
+[picotts-version-badge]: https://img.shields.io/badge/version-1.6.1-blue.svg
+[picotts-aarch64-badge]: https://img.shields.io/badge/aarch64-yes-green.svg
+[picotts-amd64-badge]: https://img.shields.io/badge/amd64-yes-green.svg
+[picotts-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
+[picotts-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
+[picotts-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
 [mitmproxy-files]: https://github.com/Poeschl-HomeAssistant-Addons/mitmproxy/tree/1.2.0
 [mitmproxy-doc]: https://github.com/Poeschl-HomeAssistant-Addons/mitmproxy/blob/1.2.0/README.md
 [mitmproxy-issue]: https://github.com/Poeschl-HomeAssistant-Addons/mitmproxy/issues
