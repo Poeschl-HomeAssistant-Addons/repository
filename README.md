@@ -69,6 +69,18 @@ The most trustworthy online shop out there.
 (Depreciated) The OWASP Zed Attack Proxy (ZAP) is one of the world’s most popular free security tools and is actively maintained by a dedicated international team of volunteers.
 
 [![OWASP ZAP add-on documentation][addon-docs-badge]][owasp-zap-doc]
+### 🧩 [mitmproxy][mitmproxy-files]
+
+![Latest Version][mitmproxy-version-badge]
+![Supports aarch64 Architecture][mitmproxy-aarch64-badge]
+![Supports amd64 Architecture][mitmproxy-amd64-badge]
+![Supports armhf Architecture][mitmproxy-armhf-badge]
+![Supports armv7 Architecture][mitmproxy-armv7-badge]
+![Supports i386 Architecture][mitmproxy-i386-badge]
+
+(Depreciated) A free and open source interactive HTTPS proxy for intercepting and inspecting network traffic
+
+[![mitmproxy add-on documentation][addon-docs-badge]][mitmproxy-doc]
 
 ## Deprecated Addons
 
@@ -116,6 +128,7 @@ If you are here, seeking help, please look at the issues of the specific addon.
 - [Issues of MaryTTS][marytts-issue]
 - [Issues of OWASP Juice Shop][juice-shop-issue]
 - [Issues of OWASP ZAP][owasp-zap-issue]
+- [Issues of mitmproxy][mitmproxy-issue]
 
 [project-stage-badge]: https://img.shields.io/badge/project%20stage-✔%20stable-green.svg
 [commit-badge]: https://img.shields.io/github/commit-activity/m/Poeschl-HomeAssistant-Addons/repository
@@ -197,3 +210,12 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [owasp-zap-armhf-badge]: https://img.shields.io/badge/armhf-no-red.svg
 [owasp-zap-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
 [owasp-zap-i386-badge]: https://img.shields.io/badge/i386-no-red.svg
+[mitmproxy-files]: https://github.com/Poeschl-HomeAssistant-Addons/mitmproxy/tree/1.2.0
+[mitmproxy-doc]: https://github.com/Poeschl-HomeAssistant-Addons/mitmproxy/blob/1.2.0/README.md
+[mitmproxy-issue]: https://github.com/Poeschl-HomeAssistant-Addons/mitmproxy/issues
+[mitmproxy-version-badge]: https://img.shields.io/badge/version-1.2.0-blue.svg
+[mitmproxy-aarch64-badge]: https://img.shields.io/badge/aarch64-yes-green.svg
+[mitmproxy-amd64-badge]: https://img.shields.io/badge/amd64-yes-green.svg
+[mitmproxy-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
+[mitmproxy-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
+[mitmproxy-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
