@@ -69,30 +69,6 @@ Mopidy Music Server
 The most trustworthy online shop out there.
 
 [![OWASP Juice Shop add-on documentation][addon-docs-badge]][juice-shop-doc]
-### 🧩 [OWASP ZAP][owasp-zap-files]
-
-![Latest Version][owasp-zap-version-badge]
-![Supports aarch64 Architecture][owasp-zap-aarch64-badge]
-![Supports amd64 Architecture][owasp-zap-amd64-badge]
-![Supports armhf Architecture][owasp-zap-armhf-badge]
-![Supports armv7 Architecture][owasp-zap-armv7-badge]
-![Supports i386 Architecture][owasp-zap-i386-badge]
-
-(Depreciated) The OWASP Zed Attack Proxy (ZAP) is one of the world’s most popular free security tools and is actively maintained by a dedicated international team of volunteers.
-
-[![OWASP ZAP add-on documentation][addon-docs-badge]][owasp-zap-doc]
-### 🧩 [mitmproxy][mitmproxy-files]
-
-![Latest Version][mitmproxy-version-badge]
-![Supports aarch64 Architecture][mitmproxy-aarch64-badge]
-![Supports amd64 Architecture][mitmproxy-amd64-badge]
-![Supports armhf Architecture][mitmproxy-armhf-badge]
-![Supports armv7 Architecture][mitmproxy-armv7-badge]
-![Supports i386 Architecture][mitmproxy-i386-badge]
-
-(Depreciated) A free and open source interactive HTTPS proxy for intercepting and inspecting network traffic
-
-[![mitmproxy add-on documentation][addon-docs-badge]][mitmproxy-doc]
 
 ## Deprecated Addons
 
@@ -112,6 +88,20 @@ These addons will not be updated anymore. Feel free to fork them.
 (Deprecated) A web interface for viewing historical and current statistics per docker container
 
 [![Docker Container Stats add-on documentation][addon-docs-badge]][container-stats-doc]
+### 🕸 [OWASP ZAP][owasp-zap-files]
+
+![Latest Version][owasp-zap-version-badge]
+
+(Deprecated) The OWASP Zed Attack Proxy (ZAP) is one of the world’s most popular free security tools and is actively maintained by a dedicated international team of volunteers.
+
+[![OWASP ZAP add-on documentation][addon-docs-badge]][owasp-zap-doc]
+### 🕸 [mitmproxy][mitmproxy-files]
+
+![Latest Version][mitmproxy-version-badge]
+
+(Deprecated) A free and open source interactive HTTPS proxy for intercepting and inspecting network traffic
+
+[![mitmproxy add-on documentation][addon-docs-badge]][mitmproxy-doc]
 
 ## Installation
 
