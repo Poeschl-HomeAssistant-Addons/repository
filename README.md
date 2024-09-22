@@ -45,6 +45,18 @@ This is a simple companion service for valetudo which generates the map pngs.
 The Mary TTS speech engine as a Hassio-Addon.
 
 [![MaryTTS add-on documentation][addon-docs-badge]][marytts-doc]
+### 🧩 [Mopidy][mopidy-files]
+
+![Latest Version][mopidy-version-badge]
+![Supports aarch64 Architecture][mopidy-aarch64-badge]
+![Supports amd64 Architecture][mopidy-amd64-badge]
+![Supports armhf Architecture][mopidy-armhf-badge]
+![Supports armv7 Architecture][mopidy-armv7-badge]
+![Supports i386 Architecture][mopidy-i386-badge]
+
+Mopidy Music Server
+
+[![Mopidy add-on documentation][addon-docs-badge]][mopidy-doc]
 ### 🧩 [OWASP Juice Shop][juice-shop-files]
 
 ![Latest Version][juice-shop-version-badge]
@@ -126,6 +138,7 @@ If you are here, seeking help, please look at the issues of the specific addon.
 - [Issues of Home Assistant Git Exporter][git-exporter-issue]
 - [Issues of ICantBelieveItsNotValetudo][icantbelieveitsnotvaletudo-issue]
 - [Issues of MaryTTS][marytts-issue]
+- [Issues of Mopidy][mopidy-issue]
 - [Issues of OWASP Juice Shop][juice-shop-issue]
 - [Issues of OWASP ZAP][owasp-zap-issue]
 - [Issues of mitmproxy][mitmproxy-issue]
@@ -192,6 +205,15 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [marytts-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
 [marytts-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
 [marytts-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
+[mopidy-files]: https://github.com/Poeschl-HomeAssistant-Addons/mopidy/tree/2.2.1
+[mopidy-doc]: https://github.com/Poeschl-HomeAssistant-Addons/mopidy/blob/2.2.1/README.md
+[mopidy-issue]: https://github.com/Poeschl-HomeAssistant-Addons/mopidy/issues
+[mopidy-version-badge]: https://img.shields.io/badge/version-2.2.1-blue.svg
+[mopidy-aarch64-badge]: https://img.shields.io/badge/aarch64-no-red.svg
+[mopidy-amd64-badge]: https://img.shields.io/badge/amd64-yes-green.svg
+[mopidy-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
+[mopidy-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
+[mopidy-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
 [juice-shop-files]: https://github.com/Poeschl-HomeAssistant-Addons/juice-shop/tree/1.2.1
 [juice-shop-doc]: https://github.com/Poeschl-HomeAssistant-Addons/juice-shop/blob/1.2.1/README.md
 [juice-shop-issue]: https://github.com/Poeschl-HomeAssistant-Addons/juice-shop/issues
