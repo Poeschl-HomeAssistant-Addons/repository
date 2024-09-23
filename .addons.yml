@@ -44,3 +44,7 @@ addons:
     repository: Poeschl-HomeAssistant-Addons/picotts
     target: picotts
     image: ghcr.io/poeschl-homeassistant-addons/picotts-{arch}
+  pigpio:
+    repository: Poeschl-HomeAssistant-Addons/pigpio
+    target: pigpio
+    image: ghcr.io/poeschl-homeassistant-addons/pigpio-{arch}
