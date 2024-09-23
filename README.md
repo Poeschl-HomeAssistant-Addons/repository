@@ -292,10 +292,10 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [picotts-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
 [picotts-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
 [picotts-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
-[pixelflut-files]: https://github.com/Poeschl-HomeAssistant-Addons/pixelflut/tree/1.2.1
-[pixelflut-doc]: https://github.com/Poeschl-HomeAssistant-Addons/pixelflut/blob/1.2.1/README.md
+[pixelflut-files]: https://github.com/Poeschl-HomeAssistant-Addons/pixelflut/tree/1.2.2
+[pixelflut-doc]: https://github.com/Poeschl-HomeAssistant-Addons/pixelflut/blob/1.2.2/README.md
 [pixelflut-issue]: https://github.com/Poeschl-HomeAssistant-Addons/pixelflut/issues
-[pixelflut-version-badge]: https://img.shields.io/badge/version-1.2.1-blue.svg
+[pixelflut-version-badge]: https://img.shields.io/badge/version-1.2.2-blue.svg
 [pixelflut-aarch64-badge]: https://img.shields.io/badge/aarch64-yes-green.svg
 [pixelflut-amd64-badge]: https://img.shields.io/badge/amd64-yes-green.svg
 [pixelflut-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
