@@ -52,3 +52,11 @@ addons:
     repository: Poeschl-HomeAssistant-Addons/pixelflut
     target: pixelflut
     image: ghcr.io/poeschl-homeassistant-addons/pixelflut-{arch}
+  rsync:
+    repository: Poeschl-HomeAssistant-Addons/rsync
+    target: rsync
+    image: ghcr.io/poeschl-homeassistant-addons/rsync-{arch}
+  rsync-local:
+    repository: Poeschl-HomeAssistant-Addons/rsync-local
+    target: rsync-local
+    image: ghcr.io/poeschl-homeassistant-addons/rsync-local-{arch}
