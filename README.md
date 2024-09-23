@@ -93,6 +93,18 @@ The most trustworthy online shop out there.
 Text to speech voice synthesizer from SVox, included in Android AOSP.
 
 [![PicoTTS add-on documentation][addon-docs-badge]][picotts-doc]
+### 🧩 [Pixelflut][pixelflut-files]
+
+![Latest Version][pixelflut-version-badge]
+![Supports aarch64 Architecture][pixelflut-aarch64-badge]
+![Supports amd64 Architecture][pixelflut-amd64-badge]
+![Supports armhf Architecture][pixelflut-armhf-badge]
+![Supports armv7 Architecture][pixelflut-armv7-badge]
+![Supports i386 Architecture][pixelflut-i386-badge]
+
+Bring a Pixelflut canvas into your Smart Home
+
+[![Pixelflut add-on documentation][addon-docs-badge]][pixelflut-doc]
 ### 🧩 [pigpio][pigpio-files]
 
 ![Latest Version][pigpio-version-badge]
@@ -169,6 +181,7 @@ If you are here, seeking help, please look at the issues of the specific addon.
 - [Issues of OWASP Juice Shop][juice-shop-issue]
 - [Issues of OWASP ZAP][owasp-zap-issue]
 - [Issues of PicoTTS][picotts-issue]
+- [Issues of Pixelflut][pixelflut-issue]
 - [Issues of mitmproxy][mitmproxy-issue]
 - [Issues of pigpio][pigpio-issue]
 
@@ -279,6 +292,15 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [picotts-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
 [picotts-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
 [picotts-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
+[pixelflut-files]: https://github.com/Poeschl-HomeAssistant-Addons/pixelflut/tree/1.2.1
+[pixelflut-doc]: https://github.com/Poeschl-HomeAssistant-Addons/pixelflut/blob/1.2.1/README.md
+[pixelflut-issue]: https://github.com/Poeschl-HomeAssistant-Addons/pixelflut/issues
+[pixelflut-version-badge]: https://img.shields.io/badge/version-1.2.1-blue.svg
+[pixelflut-aarch64-badge]: https://img.shields.io/badge/aarch64-yes-green.svg
+[pixelflut-amd64-badge]: https://img.shields.io/badge/amd64-yes-green.svg
+[pixelflut-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
+[pixelflut-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
+[pixelflut-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
 [mitmproxy-files]: https://github.com/Poeschl-HomeAssistant-Addons/mitmproxy/tree/1.2.0
 [mitmproxy-doc]: https://github.com/Poeschl-HomeAssistant-Addons/mitmproxy/blob/1.2.0/README.md
 [mitmproxy-issue]: https://github.com/Poeschl-HomeAssistant-Addons/mitmproxy/issues
