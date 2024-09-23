@@ -48,3 +48,7 @@ addons:
     repository: Poeschl-HomeAssistant-Addons/pigpio
     target: pigpio
     image: ghcr.io/poeschl-homeassistant-addons/pigpio-{arch}
+  pixelflut:
+    repository: Poeschl-HomeAssistant-Addons/pixelflut
+    target: pixelflut
+    image: ghcr.io/poeschl-homeassistant-addons/pixelflut-{arch}
