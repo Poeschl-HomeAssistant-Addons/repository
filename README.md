@@ -93,6 +93,18 @@ The most trustworthy online shop out there.
 Text to speech voice synthesizer from SVox, included in Android AOSP.
 
 [![PicoTTS add-on documentation][addon-docs-badge]][picotts-doc]
+### 🧩 [pigpio][pigpio-files]
+
+![Latest Version][pigpio-version-badge]
+![Supports aarch64 Architecture][pigpio-aarch64-badge]
+![Supports amd64 Architecture][pigpio-amd64-badge]
+![Supports armhf Architecture][pigpio-armhf-badge]
+![Supports armv7 Architecture][pigpio-armv7-badge]
+![Supports i386 Architecture][pigpio-i386-badge]
+
+Control your pwm leds with pigpio on Home Assistant
+
+[![pigpio add-on documentation][addon-docs-badge]][pigpio-doc]
 
 ## Deprecated Addons
 
@@ -158,6 +170,7 @@ If you are here, seeking help, please look at the issues of the specific addon.
 - [Issues of OWASP ZAP][owasp-zap-issue]
 - [Issues of PicoTTS][picotts-issue]
 - [Issues of mitmproxy][mitmproxy-issue]
+- [Issues of pigpio][pigpio-issue]
 
 [project-stage-badge]: https://img.shields.io/badge/project%20stage-✔%20stable-green.svg
 [commit-badge]: https://img.shields.io/github/commit-activity/m/Poeschl-HomeAssistant-Addons/repository
@@ -275,3 +288,12 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [mitmproxy-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
 [mitmproxy-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
 [mitmproxy-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
+[pigpio-files]: https://github.com/Poeschl-HomeAssistant-Addons/pigpio/tree/1.5.3
+[pigpio-doc]: https://github.com/Poeschl-HomeAssistant-Addons/pigpio/blob/1.5.3/README.md
+[pigpio-issue]: https://github.com/Poeschl-HomeAssistant-Addons/pigpio/issues
+[pigpio-version-badge]: https://img.shields.io/badge/version-1.5.3-blue.svg
+[pigpio-aarch64-badge]: https://img.shields.io/badge/aarch64-yes-green.svg
+[pigpio-amd64-badge]: https://img.shields.io/badge/amd64-no-red.svg
+[pigpio-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
+[pigpio-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
+[pigpio-i386-badge]: https://img.shields.io/badge/i386-no-red.svg
