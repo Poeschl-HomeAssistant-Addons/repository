@@ -117,6 +117,18 @@ Bring a Pixelflut canvas into your Smart Home
 Control your pwm leds with pigpio on Home Assistant
 
 [![pigpio add-on documentation][addon-docs-badge]][pigpio-doc]
+### 🧩 [rsync][rsync-files]
+
+![Latest Version][rsync-version-badge]
+![Supports aarch64 Architecture][rsync-aarch64-badge]
+![Supports amd64 Architecture][rsync-amd64-badge]
+![Supports armhf Architecture][rsync-armhf-badge]
+![Supports armv7 Architecture][rsync-armv7-badge]
+![Supports i386 Architecture][rsync-i386-badge]
+
+Sync folders to a remote machine via ssh and rsync.
+
+[![rsync add-on documentation][addon-docs-badge]][rsync-doc]
 
 ## Deprecated Addons
 
@@ -184,6 +196,7 @@ If you are here, seeking help, please look at the issues of the specific addon.
 - [Issues of Pixelflut][pixelflut-issue]
 - [Issues of mitmproxy][mitmproxy-issue]
 - [Issues of pigpio][pigpio-issue]
+- [Issues of rsync][rsync-issue]
 
 [project-stage-badge]: https://img.shields.io/badge/project%20stage-✔%20stable-green.svg
 [commit-badge]: https://img.shields.io/github/commit-activity/m/Poeschl-HomeAssistant-Addons/repository
@@ -319,3 +332,12 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [pigpio-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
 [pigpio-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
 [pigpio-i386-badge]: https://img.shields.io/badge/i386-no-red.svg
+[rsync-files]: https://github.com/Poeschl-HomeAssistant-Addons/rsync/tree/1.7.1
+[rsync-doc]: https://github.com/Poeschl-HomeAssistant-Addons/rsync/blob/1.7.1/README.md
+[rsync-issue]: https://github.com/Poeschl-HomeAssistant-Addons/rsync/issues
+[rsync-version-badge]: https://img.shields.io/badge/version-1.7.1-blue.svg
+[rsync-aarch64-badge]: https://img.shields.io/badge/aarch64-yes-green.svg
+[rsync-amd64-badge]: https://img.shields.io/badge/amd64-yes-green.svg
+[rsync-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
+[rsync-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
+[rsync-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
