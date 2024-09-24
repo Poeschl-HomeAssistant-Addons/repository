@@ -68,3 +68,7 @@ addons:
     repository: Poeschl-HomeAssistant-Addons/valetudo-mapper
     target: valetudo-mapper
     image: ghcr.io/poeschl-homeassistant-addons/valetudo-mapper-{arch}
+  vnc-viewer:
+    repository: Poeschl-HomeAssistant-Addons/vnc-viewer
+    target: vnc-viewer
+    image: ghcr.io/poeschl-homeassistant-addons/vnc-viewer-{arch}
