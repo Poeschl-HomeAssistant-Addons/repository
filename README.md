@@ -117,6 +117,18 @@ Bring a Pixelflut canvas into your Smart Home
 Syncthing is a continuous file synchronization program in a de-centralized way
 
 [![Syncthing add-on documentation][addon-docs-badge]][syncthing-doc]
+### 🧩 [Valetudo Mapper][valetudo-mapper-files]
+
+![Latest Version][valetudo-mapper-version-badge]
+![Supports aarch64 Architecture][valetudo-mapper-aarch64-badge]
+![Supports amd64 Architecture][valetudo-mapper-amd64-badge]
+![Supports armhf Architecture][valetudo-mapper-armhf-badge]
+![Supports armv7 Architecture][valetudo-mapper-armv7-badge]
+![Supports i386 Architecture][valetudo-mapper-i386-badge]
+
+This is a simple companion service for Valetudo RE which generates the map pngs.
+
+[![Valetudo Mapper add-on documentation][addon-docs-badge]][valetudo-mapper-doc]
 ### 🧩 [pigpio][pigpio-files]
 
 ![Latest Version][pigpio-version-badge]
@@ -219,6 +231,7 @@ If you are here, seeking help, please look at the issues of the specific addon.
 - [Issues of PicoTTS][picotts-issue]
 - [Issues of Pixelflut][pixelflut-issue]
 - [Issues of Syncthing][syncthing-issue]
+- [Issues of Valetudo Mapper][valetudo-mapper-issue]
 - [Issues of mitmproxy][mitmproxy-issue]
 - [Issues of pigpio][pigpio-issue]
 - [Issues of rsync][rsync-issue]
@@ -349,6 +362,15 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [syncthing-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
 [syncthing-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
 [syncthing-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
+[valetudo-mapper-files]: https://github.com/Poeschl-HomeAssistant-Addons/valetudo-mapper/tree/1.12.0
+[valetudo-mapper-doc]: https://github.com/Poeschl-HomeAssistant-Addons/valetudo-mapper/blob/1.12.0/README.md
+[valetudo-mapper-issue]: https://github.com/Poeschl-HomeAssistant-Addons/valetudo-mapper/issues
+[valetudo-mapper-version-badge]: https://img.shields.io/badge/version-1.12.0-blue.svg
+[valetudo-mapper-aarch64-badge]: https://img.shields.io/badge/aarch64-yes-green.svg
+[valetudo-mapper-amd64-badge]: https://img.shields.io/badge/amd64-yes-green.svg
+[valetudo-mapper-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
+[valetudo-mapper-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
+[valetudo-mapper-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
 [mitmproxy-files]: https://github.com/Poeschl-HomeAssistant-Addons/mitmproxy/tree/1.2.0
 [mitmproxy-doc]: https://github.com/Poeschl-HomeAssistant-Addons/mitmproxy/blob/1.2.0/README.md
 [mitmproxy-issue]: https://github.com/Poeschl-HomeAssistant-Addons/mitmproxy/issues
