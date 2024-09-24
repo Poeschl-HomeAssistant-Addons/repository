@@ -1,0 +1,36 @@
+name: Syncthing
+version: 1.19.1
+slug: syncthing
+description: Syncthing is a continuous file synchronization program in a de-centralized
+  way
+url: https://github.com/Poeschl-HomeAssistant-Addons/syncthing
+arch:
+- armhf
+- armv7
+- aarch64
+- amd64
+- i386
+homeassistant: 0.115.0
+image: ghcr.io/poeschl-homeassistant-addons/syncthing-{arch}
+init: false
+ports:
+  8384/tcp: null
+  22000/tcp: 22000
+  21027/udp: 21027
+ports_description:
+  8384/tcp: Web frontend (not needed with Ingress)
+  22000/tcp: Sync protocol
+  21027/udp: Discovery broadcast
+ingress: true
+ingress_port: 8384
+panel_title: Syncthing
+panel_icon: mdi:sync
+map:
+- addon_config:rw
+- addons:rw
+- all_addon_configs:rw
+- backup:rw
+- homeassistant_config:rw
+- media:rw
+- share:rw
+- ssl:rw

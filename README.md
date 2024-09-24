@@ -105,6 +105,18 @@ Text to speech voice synthesizer from SVox, included in Android AOSP.
 Bring a Pixelflut canvas into your Smart Home
 
 [![Pixelflut add-on documentation][addon-docs-badge]][pixelflut-doc]
+### 🧩 [Syncthing][syncthing-files]
+
+![Latest Version][syncthing-version-badge]
+![Supports aarch64 Architecture][syncthing-aarch64-badge]
+![Supports amd64 Architecture][syncthing-amd64-badge]
+![Supports armhf Architecture][syncthing-armhf-badge]
+![Supports armv7 Architecture][syncthing-armv7-badge]
+![Supports i386 Architecture][syncthing-i386-badge]
+
+Syncthing is a continuous file synchronization program in a de-centralized way
+
+[![Syncthing add-on documentation][addon-docs-badge]][syncthing-doc]
 ### 🧩 [pigpio][pigpio-files]
 
 ![Latest Version][pigpio-version-badge]
@@ -206,6 +218,7 @@ If you are here, seeking help, please look at the issues of the specific addon.
 - [Issues of OWASP ZAP][owasp-zap-issue]
 - [Issues of PicoTTS][picotts-issue]
 - [Issues of Pixelflut][pixelflut-issue]
+- [Issues of Syncthing][syncthing-issue]
 - [Issues of mitmproxy][mitmproxy-issue]
 - [Issues of pigpio][pigpio-issue]
 - [Issues of rsync][rsync-issue]
@@ -327,6 +340,15 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [pixelflut-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
 [pixelflut-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
 [pixelflut-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
+[syncthing-files]: https://github.com/Poeschl-HomeAssistant-Addons/syncthing/tree/1.19.1
+[syncthing-doc]: https://github.com/Poeschl-HomeAssistant-Addons/syncthing/blob/1.19.1/README.md
+[syncthing-issue]: https://github.com/Poeschl-HomeAssistant-Addons/syncthing/issues
+[syncthing-version-badge]: https://img.shields.io/badge/version-1.19.1-blue.svg
+[syncthing-aarch64-badge]: https://img.shields.io/badge/aarch64-yes-green.svg
+[syncthing-amd64-badge]: https://img.shields.io/badge/amd64-yes-green.svg
+[syncthing-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
+[syncthing-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
+[syncthing-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
 [mitmproxy-files]: https://github.com/Poeschl-HomeAssistant-Addons/mitmproxy/tree/1.2.0
 [mitmproxy-doc]: https://github.com/Poeschl-HomeAssistant-Addons/mitmproxy/blob/1.2.0/README.md
 [mitmproxy-issue]: https://github.com/Poeschl-HomeAssistant-Addons/mitmproxy/issues
