@@ -177,6 +177,18 @@ Sync folders to a remote machine via ssh and rsync.
 Sync folders to a external usb drive with rsync.
 
 [![rsync local add-on documentation][addon-docs-badge]][rsync-local-doc]
+### 🧩 [ympd][ympd-files]
+
+![Latest Version][ympd-version-badge]
+![Supports aarch64 Architecture][ympd-aarch64-badge]
+![Supports amd64 Architecture][ympd-amd64-badge]
+![Supports armhf Architecture][ympd-armhf-badge]
+![Supports armv7 Architecture][ympd-armv7-badge]
+![Supports i386 Architecture][ympd-i386-badge]
+
+A simple webfrontend for any mpd compatible music player.
+
+[![ympd add-on documentation][addon-docs-badge]][ympd-doc]
 
 ## Deprecated Addons
 
@@ -249,6 +261,7 @@ If you are here, seeking help, please look at the issues of the specific addon.
 - [Issues of pigpio][pigpio-issue]
 - [Issues of rsync][rsync-issue]
 - [Issues of rsync local][rsync-local-issue]
+- [Issues of ympd][ympd-issue]
 
 [project-stage-badge]: https://img.shields.io/badge/project%20stage-✔%20stable-green.svg
 [commit-badge]: https://img.shields.io/github/commit-activity/m/Poeschl-HomeAssistant-Addons/repository
@@ -429,3 +442,12 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [rsync-local-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
 [rsync-local-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
 [rsync-local-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
+[ympd-files]: https://github.com/Poeschl-HomeAssistant-Addons/ympd/tree/1.5.0
+[ympd-doc]: https://github.com/Poeschl-HomeAssistant-Addons/ympd/blob/1.5.0/README.md
+[ympd-issue]: https://github.com/Poeschl-HomeAssistant-Addons/ympd/issues
+[ympd-version-badge]: https://img.shields.io/badge/version-1.5.0-blue.svg
+[ympd-aarch64-badge]: https://img.shields.io/badge/aarch64-yes-green.svg
+[ympd-amd64-badge]: https://img.shields.io/badge/amd64-yes-green.svg
+[ympd-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
+[ympd-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
+[ympd-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
