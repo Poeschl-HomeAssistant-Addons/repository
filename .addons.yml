@@ -64,3 +64,7 @@ addons:
     repository: Poeschl-HomeAssistant-Addons/syncthing
     target: syncthing
     image: ghcr.io/poeschl-homeassistant-addons/syncthing-{arch}
+  valetudo-mapper:
+    repository: Poeschl-HomeAssistant-Addons/valetudo-mapper
+    target: valetudo-mapper
+    image: ghcr.io/poeschl-homeassistant-addons/valetudo-mapper-{arch}
