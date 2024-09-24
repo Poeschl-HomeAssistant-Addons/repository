@@ -72,3 +72,7 @@ addons:
     repository: Poeschl-HomeAssistant-Addons/vnc-viewer
     target: vnc-viewer
     image: ghcr.io/poeschl-homeassistant-addons/vnc-viewer-{arch}
+  ympd:
+    repository: Poeschl-HomeAssistant-Addons/ympd
+    target: ympd
+    image: ghcr.io/poeschl-homeassistant-addons/ympd-{arch}
