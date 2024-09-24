@@ -117,6 +117,18 @@ Bring a Pixelflut canvas into your Smart Home
 Syncthing is a continuous file synchronization program in a de-centralized way
 
 [![Syncthing add-on documentation][addon-docs-badge]][syncthing-doc]
+### 🧩 [VNC Viewer][vnc-viewer-files]
+
+![Latest Version][vnc-viewer-version-badge]
+![Supports aarch64 Architecture][vnc-viewer-aarch64-badge]
+![Supports amd64 Architecture][vnc-viewer-amd64-badge]
+![Supports armhf Architecture][vnc-viewer-armhf-badge]
+![Supports armv7 Architecture][vnc-viewer-armv7-badge]
+![Supports i386 Architecture][vnc-viewer-i386-badge]
+
+A noVNC client integrated in Home Assistant
+
+[![VNC Viewer add-on documentation][addon-docs-badge]][vnc-viewer-doc]
 ### 🧩 [Valetudo Mapper][valetudo-mapper-files]
 
 ![Latest Version][valetudo-mapper-version-badge]
@@ -231,6 +243,7 @@ If you are here, seeking help, please look at the issues of the specific addon.
 - [Issues of PicoTTS][picotts-issue]
 - [Issues of Pixelflut][pixelflut-issue]
 - [Issues of Syncthing][syncthing-issue]
+- [Issues of VNC Viewer][vnc-viewer-issue]
 - [Issues of Valetudo Mapper][valetudo-mapper-issue]
 - [Issues of mitmproxy][mitmproxy-issue]
 - [Issues of pigpio][pigpio-issue]
@@ -362,6 +375,15 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [syncthing-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
 [syncthing-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
 [syncthing-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
+[vnc-viewer-files]: https://github.com/Poeschl-HomeAssistant-Addons/vnc-viewer/tree/1.6.1
+[vnc-viewer-doc]: https://github.com/Poeschl-HomeAssistant-Addons/vnc-viewer/blob/1.6.1/README.md
+[vnc-viewer-issue]: https://github.com/Poeschl-HomeAssistant-Addons/vnc-viewer/issues
+[vnc-viewer-version-badge]: https://img.shields.io/badge/version-1.6.1-blue.svg
+[vnc-viewer-aarch64-badge]: https://img.shields.io/badge/aarch64-yes-green.svg
+[vnc-viewer-amd64-badge]: https://img.shields.io/badge/amd64-yes-green.svg
+[vnc-viewer-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
+[vnc-viewer-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
+[vnc-viewer-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
 [valetudo-mapper-files]: https://github.com/Poeschl-HomeAssistant-Addons/valetudo-mapper/tree/1.12.0
 [valetudo-mapper-doc]: https://github.com/Poeschl-HomeAssistant-Addons/valetudo-mapper/blob/1.12.0/README.md
 [valetudo-mapper-issue]: https://github.com/Poeschl-HomeAssistant-Addons/valetudo-mapper/issues
