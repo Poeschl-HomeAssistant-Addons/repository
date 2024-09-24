@@ -60,3 +60,7 @@ addons:
     repository: Poeschl-HomeAssistant-Addons/rsync-local
     target: rsync-local
     image: ghcr.io/poeschl-homeassistant-addons/rsync-local-{arch}
+  syncthing:
+    repository: Poeschl-HomeAssistant-Addons/syncthing
+    target: syncthing
+    image: ghcr.io/poeschl-homeassistant-addons/syncthing-{arch}
