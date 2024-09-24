@@ -10,4 +10,5 @@ jobs:
   workflows:
     uses: Poeschl-HomeAssistant-Addons/workflows/.github/workflows/labels.yaml@main
     permissions:
+      issues: write
       contents: write
