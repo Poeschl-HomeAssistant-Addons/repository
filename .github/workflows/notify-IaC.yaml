@@ -1,0 +1,21 @@
+name: Notify IaC about new addon
+
+# yamllint disable-line rule:truthy
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .addons.yml
+
+jobs:
+  notify:
+    name: 📢 Notify IaC Workflows
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📢 Dispatch addon.yml update signal
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.DISPATCH_TOKEN }}
+          repository: ${{ github.repository_owner }}/workflows
+          event-type: addons-update
