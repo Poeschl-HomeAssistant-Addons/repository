@@ -2,4 +2,4 @@
 
 ### ⬆️ Dependency updates
 
-- ⬆️ Multiple dependency updates :) @Poeschl ([#1](https://github.com/Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo/pull/1))
+- ⬆️ Update ICantBelieveItsNotValetudo to 2023.08.0 @mihsu81 ([#2](https://github.com/Poeschl-HomeAssistant-Addons/icantbelieveitsnotvaletudo/pull/2))

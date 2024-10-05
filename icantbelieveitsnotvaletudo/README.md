@@ -1,6 +1,7 @@
 # ICantBelieveItsNotValetudo Addon
 
 This is the adaption of [ICantBelieveItsNotValetudo](https://github.com/Hypfer/ICantBelieveItsNotValetudo) as a Supervisor addon.
+As of now ICantBelieveItsNotValetudo is archived, but this addon will try to maintain running the latest version as long as possible.
 
 [![Release][release-badge]][release]
 ![Addon Stage][stage-badge]
@@ -22,8 +23,8 @@ The generated image will be served over the Supervisor Ingress feature. So the f
 
 [stage-badge]: https://img.shields.io/badge/Addon%20stage-stable-green.svg
 
-[release-badge]: https://img.shields.io/badge/version-v4.0.1-blue.svg
-[release]: https://github.com/Poeschl-HomeAssistant-Addons/ICantBelieveItsNotValetudo/tree/v4.0.1
+[release-badge]: https://img.shields.io/badge/version-v4.1.0-blue.svg
+[release]: https://github.com/Poeschl-HomeAssistant-Addons/icantbelieveitsnotvaletudo/tree/v4.1.0
 
 [donation-badge]: https://img.shields.io/badge/Buy%20me%20a%20coffee-%23d32f2f?logo=buy-me-a-coffee&style=for-the-badge&logoColor=white
 [donation-url]: https://www.buymeacoffee.com/Poeschl
