@@ -388,10 +388,10 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [syncthing-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
 [syncthing-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
 [syncthing-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
-[vnc-viewer-files]: https://github.com/Poeschl-HomeAssistant-Addons/vnc-viewer/tree/1.6.1
-[vnc-viewer-doc]: https://github.com/Poeschl-HomeAssistant-Addons/vnc-viewer/blob/1.6.1/README.md
+[vnc-viewer-files]: https://github.com/Poeschl-HomeAssistant-Addons/vnc-viewer/tree/1.6.2
+[vnc-viewer-doc]: https://github.com/Poeschl-HomeAssistant-Addons/vnc-viewer/blob/1.6.2/README.md
 [vnc-viewer-issue]: https://github.com/Poeschl-HomeAssistant-Addons/vnc-viewer/issues
-[vnc-viewer-version-badge]: https://img.shields.io/badge/version-1.6.1-blue.svg
+[vnc-viewer-version-badge]: https://img.shields.io/badge/version-1.6.2-blue.svg
 [vnc-viewer-aarch64-badge]: https://img.shields.io/badge/aarch64-yes-green.svg
 [vnc-viewer-amd64-badge]: https://img.shields.io/badge/amd64-yes-green.svg
 [vnc-viewer-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg

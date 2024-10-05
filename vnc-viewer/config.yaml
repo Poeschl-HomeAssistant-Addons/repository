@@ -1,5 +1,5 @@
 name: VNC Viewer
-version: 1.6.1
+version: 1.6.2
 slug: vnc-viewer
 panel_icon: mdi:remote-desktop
 description: A noVNC client integrated in Home Assistant
@@ -15,7 +15,6 @@ arch:
 - i386
 boot: manual
 hassio_api: true
-image: ghcr.io/poeschl-homeassistant-addons/vnc-viewer-{arch}
 init: false
 options:
   vnc_server_host: localhost
@@ -23,3 +22,4 @@ schema:
   vnc_server_host: str
   vnc_server_port: int?
   vnc_server_password: str?
+image: ghcr.io/poeschl-homeassistant-addons/vnc-viewer-{arch}
