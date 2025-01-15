@@ -18,7 +18,7 @@ folders:
     destination: /home/user/config-target
   - source: /media/playlists
     destination: /home/user/cool-playlists
-    options: '-archive --recursive --compress'
+    options: '--archive --recursive --compress'
 remote_host: ''
 remote_folder: /home/user
 
