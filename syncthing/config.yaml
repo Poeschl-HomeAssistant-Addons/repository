@@ -1,15 +1,12 @@
 name: Syncthing
-version: 1.19.15
+version: 2.0.0
 slug: syncthing
 description: Syncthing is a continuous file synchronization program in a de-centralized
   way
 url: https://github.com/Poeschl-HomeAssistant-Addons/syncthing
 arch:
-- armhf
-- armv7
 - aarch64
 - amd64
-- i386
 homeassistant: 0.115.0
 image: ghcr.io/poeschl-homeassistant-addons/syncthing-{arch}
 init: false

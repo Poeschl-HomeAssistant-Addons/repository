@@ -1,9 +1,9 @@
 ## Changes in this version
 
-### 📚 Documentation
+### 🚨 Breaking changes
 
-- 📝 Remove obsolete insecure admin access note @salim-b ([#32](https://github.com/Poeschl-HomeAssistant-Addons/syncthing/pull/32))
+- 🔥 Remove unsupported 32-bit architectures (i386, armhf, armv7) @Poeschl ([#35](https://github.com/Poeschl-HomeAssistant-Addons/syncthing/pull/35))
 
 ### ⬆️ Dependency updates
 
-- ⬆️ Update syncthing to 2.0.15-r0 @salim-b ([#33](https://github.com/Poeschl-HomeAssistant-Addons/syncthing/pull/33))
+- ⬆️ Update syncthing to v2.1.1-r0 @salim-b ([#34](https://github.com/Poeschl-HomeAssistant-Addons/syncthing/pull/34))
