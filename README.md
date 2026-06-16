@@ -385,9 +385,9 @@ If you are here, seeking help, please look at the issues of the specific addon.
 [syncthing-version-badge]: https://img.shields.io/badge/version-1.19.15-blue.svg
 [syncthing-aarch64-badge]: https://img.shields.io/badge/aarch64-yes-green.svg
 [syncthing-amd64-badge]: https://img.shields.io/badge/amd64-yes-green.svg
-[syncthing-armhf-badge]: https://img.shields.io/badge/armhf-yes-green.svg
-[syncthing-armv7-badge]: https://img.shields.io/badge/armv7-yes-green.svg
-[syncthing-i386-badge]: https://img.shields.io/badge/i386-yes-green.svg
+[syncthing-armhf-badge]: https://img.shields.io/badge/armhf-no-red.svg
+[syncthing-armv7-badge]: https://img.shields.io/badge/armv7-no-red.svg
+[syncthing-i386-badge]: https://img.shields.io/badge/i386-no-red.svg
 [vnc-viewer-files]: https://github.com/Poeschl-HomeAssistant-Addons/vnc-viewer/tree/1.6.3
 [vnc-viewer-doc]: https://github.com/Poeschl-HomeAssistant-Addons/vnc-viewer/blob/1.6.3/README.md
 [vnc-viewer-issue]: https://github.com/Poeschl-HomeAssistant-Addons/vnc-viewer/issues
