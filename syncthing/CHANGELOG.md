@@ -1,5 +1,9 @@
 ## Changes in this version
 
-### ⬆️ Dependency updates
+### 🔨 Maintenance
 
-- ⬆️ Update syncthing to v2.1.3-r0 @salim-b ([#37](https://github.com/Poeschl-HomeAssistant-Addons/syncthing/pull/37))
+- refactor: update app, config, links and docs @salim-b ([#38](https://github.com/Poeschl-HomeAssistant-Addons/syncthing/pull/38))
+
+### 📚 Documentation
+
+- refactor: update app, config, links and docs @salim-b ([#38](https://github.com/Poeschl-HomeAssistant-Addons/syncthing/pull/38))

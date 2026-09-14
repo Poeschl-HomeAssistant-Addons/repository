@@ -1,5 +1,5 @@
 name: Syncthing
-version: 2.0.2
+version: 2.0.3
 slug: syncthing
 description: Syncthing is a continuous file synchronization program in a de-centralized
   way
@@ -21,11 +21,11 @@ ingress_port: 8384
 panel_title: Syncthing
 panel_icon: mdi:sync
 map:
-- addon_config:rw
-- addons:rw
-- all_addon_configs:rw
+- all_app_configs:rw
+- app_config:rw
 - backup:rw
 - homeassistant_config:rw
+- local_apps:rw
 - media:rw
 - share:rw
 - ssl:rw
